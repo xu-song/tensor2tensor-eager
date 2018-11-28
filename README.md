@@ -16,7 +16,7 @@ python train_wmt_eager.py
  
 ## Troubles
 
-···py
+```py
 logits, losses_dict = model(features)
 print(model.variables)  # get nothing from model.variables
 ```
